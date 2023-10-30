@@ -1,0 +1,1 @@
+from .database import Basefrom sqlalchemy import Column, Integer, Text, Stringclass Word(Base):    __tablename__ = 'word'    word = Column(String, primary_key=True)    word_info = Column(Text, nullable=False)class Key(Base):    __tablename__ = 'key'    api_key = Column(String, primary_key=True)    api_limit = Column(Integer, nullable=False)

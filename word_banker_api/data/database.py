@@ -1,0 +1,1 @@
+from sqlalchemy import create_enginefrom sqlalchemy.orm import declarative_base, sessionmakerfrom .config import *engine = create_engine(f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:5432/{DB_NAME}")Base = declarative_base()session = sessionmaker()

@@ -1,0 +1,1 @@
+import requestsurl="http://194.99.22.33/api/v1/get-word/"method={  "api_key": "example_api_key",  "text": "join",  "to_lang": "uz"}res=requests.post(url=url, json=method)print(res.json())

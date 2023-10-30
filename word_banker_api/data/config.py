@@ -1,0 +1,1 @@
+DB_USER = 'postgres'DB_PASS = '0890'DB_HOST = 'localhost'DB_NAME = 'word_bank1'ADMIN_PASSWORD = '20060729'

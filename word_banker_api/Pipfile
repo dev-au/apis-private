@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+googletrans="==3.1.0a0"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+sqlalchemy-utils = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.9"
